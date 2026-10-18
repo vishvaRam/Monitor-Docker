@@ -77,8 +77,8 @@ Designed for developers and DevOps engineers who want a modern, low-overhead, da
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/vishvaRam/Monitor-Docker.git
+cd Monitor-Docker
 ```
 
 ### 2. Install Dependencies

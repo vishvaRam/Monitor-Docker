@@ -1,0 +1,26 @@
+For Linux
+
+chmod +x ./scripts/build_deb.sh
+./scripts/build_deb.sh
+
+./scripts/build_deb.sh
+
+sudo apt install ./releases/docker-studio_1.0.0_amd64.deb
+
+
+For windows
+
+uv run pyinstaller --noconfirm --onefile --windowed \
+    --name "DockerStudio_1.0.0" \
+    --specpath "build" \
+    --distpath "releases" \
+    --icon "$(pwd -W)/assets/docker_studio.ico" \
+    --hidden-import "docker" \
+    --hidden-import "docker.errors" \
+    --hidden-import "urllib3" \
+    --hidden-import "requests" \
+    --hidden-import "PyQt6.QtCore" \
+    --hidden-import "PyQt6.QtGui" \
+    --hidden-import "PyQt6.QtWidgets" \
+    --add-data "$(pwd -W)/assets;assets" \
+    app.py

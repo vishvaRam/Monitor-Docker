@@ -1,0 +1,6 @@
+.venv/
+.venv-win/
+build/
+dist/
+releases/
+*.spec

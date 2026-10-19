@@ -1,5 +1,11 @@
 # ⚡ Docker Studio Telemetry
 
+[![Release](https://img.shields.io/badge/Release-v1.0.0-7aa2f7?style=for-the-badge&logo=github)](https://github.com/vishvaRam/devport-inspector/releases/latest)
+[![Platform](<https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-bb9af7?style=for-the-badge&logo=linux&logoColor=white>)](https://github.com/vishvaRam/devport-inspector/releases)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-7dcfff?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![GUI](https://img.shields.io/badge/UI-PyQt6-f7768e?style=for-the-badge&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
+[![License](https://img.shields.io/badge/License-MIT-9ece6a?style=for-the-badge)](LICENSE)
+
 A high-performance, real-time desktop telemetry dashboard and lifecycle manager for Docker daemons, built with **Python 3**, **PyQt6**, and the **Docker Engine API**.
 
 Designed for developers and DevOps engineers who want a modern, low-overhead, dark-themed GUI to inspect container vitals, stream colored logs, update environment variables on the fly, and manage images.
